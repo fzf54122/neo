@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: About | Neo # the main title
+title: Neo # the main title
 
 tagline: 祝你有个好心情
 
