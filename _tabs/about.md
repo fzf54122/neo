@@ -20,7 +20,7 @@ order: 4
 
 ---
 
-## 🛠️ 技术栈（简版）
+## 🛠️ 技术栈
 
 - **后端**：Python / Django / FastAPI
 - **工程化**：Docker / Redis / Nginx / Linux
