@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: neo # the main title
+title: Neo # the main title
 
 tagline: 祝你有个好心情
 
@@ -27,13 +27,13 @@ url: "https://fzf54122.github.io"
 baseurl: "/neo"
 
 github:
-  username: neo # change to your GitHub username
+  username: Neo # change to your GitHub username
 
 twitter:
-  username: neo # change to your Twitter username
+  username: Neo # change to your Twitter username
 
 social:
-  name: Neo
+  name: 123333
   email: fzf54122@163.com
   links:
     - https://github.com/fzf54122
