@@ -1,0 +1,14 @@
+/* Hide theme credit in footer */
+footer .footer__powered,
+footer .footer-powered,
+footer .site-info a[href*='chirpy'],
+footer .site-info,
+footer .copyright,
+footer .text-muted {
+  /* 下面选择其一 */
+}
+
+/* 更精准：只隐藏“Using the Chirpy theme...”这块（推荐） */
+footer .site-info {
+  display: none !important;
+}
