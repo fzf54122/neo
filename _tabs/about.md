@@ -11,6 +11,11 @@ order: 4
 
 ---
 
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/fzf54122/fzf54122@main/images/设计之美.png" alt="Programming background" style="width: 100%; border-radius: 16px; margin-bottom: 30px; box-shadow: 0 8px 32px rgba(0,0,0,0.15); transition: all 0.3s ease; transform: scale(1);" />
+  <p style="color: #888; font-size: 0.9em; margin-top: -25px; margin-bottom: 30px;">设计之美，技术之魂</p>
+</div>
+
 ## 🧭 我在做什么
 
 - **🚀 打造高性能后端**：基于 Python 生态构建稳定、高效的后端服务
@@ -48,6 +53,12 @@ order: 4
 ---
 
 ## 💡 个人信念
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/fzf54122/fzf54122@main/images/个人信念.png" alt="Programming background" style="width: 100%; border-radius: 16px; margin-bottom: 30px; box-shadow: 0 8px 32px rgba(0,0,0,0.15); transition: all 0.3s ease; transform: scale(1);" />
+  <p style="color: #888; font-size: 0.9em; margin-top: -25px; margin-bottom: 30px;">灵感无限，未来可期</p>
+</div>
+
 
 > **AI 与后端的融合，将重新定义智能系统的边界。**
 
