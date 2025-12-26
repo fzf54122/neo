@@ -1,9 +1,10 @@
 ---
 title: "Fast Generic Api：DRF 风格 FastAPI 框架的设计记录"
 date: 2025-12-26
-categories: [Python, fastapi]
+categories: [engineering, Python, fastapi]
 tags: [pydantic, tortoise-orm]
 pin: true
+description: "DRF 风格 FastAPI 框架的设计记录：GenericAPIView + Mixins、统一响应、过滤分页与工程化取舍。"
 ---
 
 > 这篇不是 README 宣传页，而是我做 **Fast Generic Api** 的工程记录：为什么做、怎么设计、做了哪些取舍、接下来准备怎么迭代。
