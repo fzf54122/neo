@@ -12,3 +12,97 @@ footer .text-muted {
 footer .site-info {
   display: none !important;
 }
+
+.home-hero{
+  display:grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 22px;
+  align-items: start;
+  margin-top: 8px;
+}
+
+.home-hero__sub{ opacity:.8; margin-top: 6px; }
+
+.home-hero__badges{ display:flex; flex-wrap:wrap; gap:10px; margin: 12px 0 14px; }
+.badge{
+  padding:6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--main-border-color);
+  font-size: 0.9rem;
+  opacity:.9;
+}
+
+.home-actions{ display:flex; flex-wrap:wrap; gap:10px; margin: 10px 0 14px; }
+.btn{
+  display:inline-block;
+  padding:8px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--main-border-color);
+  text-decoration:none;
+}
+.btn.primary{
+  border-color: var(--link-color);
+  box-shadow: 0 8px 28px rgba(0,0,0,.08);
+}
+
+.home-metrics{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top: 10px;
+}
+.metric{
+  flex: 1 1 120px;
+  padding: 12px 14px;
+  border: 1px solid var(--main-border-color);
+  border-radius: 14px;
+}
+.metric__k{ font-size: 1.3rem; font-weight: 700; }
+.metric__v{ opacity:.75; font-size: .92rem; margin-top:2px; }
+
+.home-hero__right img{
+  width:100%;
+  border-radius:16px;
+  border: 1px solid var(--main-border-color);
+  box-shadow: 0 12px 34px rgba(0,0,0,.10);
+}
+.caption{
+  text-align:center;
+  opacity:.7;
+  font-size:.9rem;
+  margin-top: 8px;
+}
+
+.grid-2{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 10px;
+}
+.card{
+  border: 1px solid var(--main-border-color);
+  border-radius: 16px;
+  padding: 14px 16px;
+}
+.card h3{ margin: 0 0 6px; }
+.card p{ margin: 0; opacity:.85; }
+.card .meta{ margin-top:10px; opacity:.7; font-size:.92rem; }
+.card.link{ transition: transform .15s ease; }
+.card.link:hover{ transform: translateY(-2px); text-decoration:none; }
+
+.post-list{ list-style:none; padding-left:0; margin-top: 10px; }
+.post-list li{
+  display:flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--main-border-color);
+}
+.post-list .date{ opacity:.65; font-size:.9rem; white-space:nowrap; }
+
+.more{ margin-top: 12px; }
+
+@media (max-width: 960px){
+  .home-hero{ grid-template-columns: 1fr; }
+  .grid-2{ grid-template-columns: 1fr; }
+}
