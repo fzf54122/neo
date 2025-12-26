@@ -1,8 +1,8 @@
 ---
 title: "Fast Generic Api：DRF 风格 FastAPI 框架的设计记录"
 date: 2025-12-26
-categories: [engineering, fastapi]
-tags: [python, fastapi, engineering, project-structure, best-practice, pydantic, tortoise-orm, openapi]
+categories: [Python, fastapi]
+tags: [pydantic, tortoise-orm]
 pin: true
 ---
 
