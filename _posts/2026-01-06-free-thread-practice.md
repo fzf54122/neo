@@ -3,7 +3,7 @@ title: "Python Free-Threading: 多线程 CPU 密集型性能实测"
 date: 2026-01-06
 categories: [Python]
 tags: [threading, performance, concurrency, python3.13]
-pin: true
+pin: false
 description: "通过真实基准测试，对比启用与禁用 GIL 时 Python 多线程在 CPU 密集型任务下的性能表现，验证 Python 3.13 free-threading 带来的并行能力提升。"
 ---
 
