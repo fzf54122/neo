@@ -1,5 +1,5 @@
 ---
-title: "Python GIL 与 free-threading：一次多线程 CPU 密集型性能实测"
+title: "Python Free-Threading: 多线程 CPU 密集型性能实测"
 date: 2026-01-06
 categories: [Python]
 tags: [threading, performance, concurrency, python3.13]
