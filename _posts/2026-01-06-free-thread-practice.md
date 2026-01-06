@@ -55,10 +55,7 @@ if __name__ == "__main__":
 |------|------|
 | **硬件** | 12核CPU |
 | **操作系统** | Linux |
-| **Python版本** | 
-  - 🟢 Python 3.13.5t（支持禁用GIL）
-  - 🔴 Python 3.12.10（默认启用GIL）
- |
+| **Python版本** | 🟢 Python 3.13.5t（支持禁用GIL）<br>🔴 Python 3.12.10（默认启用GIL） |
 
 ## 📊 测试结果
 
@@ -176,15 +173,13 @@ threads=12 time=24.34s
 
 ## 🛠️ 实践建议
 
-### 1. 💻 对于CPU密集型任务
+### 1. 💻 对于 CPU 密集型任务
 
 | 场景 | 建议方案 |
 |------|----------|
-| **使用Python 3.13+** | ✅ 考虑禁用GIL以获得更好的多线程性能
-  （设置环境变量：`PYTHON_GIL=0`） |
-| **使用旧版Python** | ✅ 使用多进程（`multiprocessing`模块）绕过GIL限制
- ✅ 考虑使用C扩展（如Cython、ctypes）
- ✅ 尝试使用Numba等JIT编译器 |
+| **使用 Python 3.13+** | ✅ 考虑禁用 GIL 以获得更好的多线程性能<br>（设置环境变量：`PYTHON_GIL=0`） |
+| **使用旧版 Python** | ✅ 使用多进程（`multiprocessing`）绕过 GIL<br>✅ 使用 C 扩展（Cython / ctypes）<br>✅ 尝试 Numba 等 JIT 编译器 |
+
 
 ### 2. 📶 对于I/O密集型任务
 
