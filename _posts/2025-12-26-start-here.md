@@ -3,7 +3,7 @@ title: "从这里开始：Neo 的后端工程化笔记（持续更新）"
 date: 2025-12-26
 categories: [engineering,profile]
 tags: [start-here, engineering, best-practice]
-pin: true
+pin: false
 ---
 
 如果你第一次来到这里，可以按下面顺序阅读，我会持续更新与补齐。
